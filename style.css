@@ -25,7 +25,7 @@ a{
 nav{
     display:flex;
     align-items:center;
-    width:100%;
+    width:100vw;
     height:90px;
 
     background-color: #000000;
@@ -47,13 +47,26 @@ nav{
 }
 
 .hide{
-    right:200vw;
-    
+    margin-left:-100%; 
     transition:1s;
     
 }
+.title{
+    text-align:center;
+    
+}
+.title-div{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    text-align:center;
+   
+  
+    height:150px;
+
+}
 #account-settings-div{
-     margin:10vh 5vw;
+     margin:0 5vw 10vh 5vw  ;
 }
 .account-settings, .nav-list{
     color:orange;
@@ -170,6 +183,9 @@ nav{
     #account-menu{
         left:60vw;
         padding:0 2vw 0 0;
+    }
+    #notification-icon, #search-icon{
+        margin-right:3vw;
     }
 }
 
