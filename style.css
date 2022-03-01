@@ -10,6 +10,7 @@
 
 body{
     font-family:"Lato", sans-serif;
+    overflow-x:hidden;
 }
 li{
     list-style:none;
@@ -31,6 +32,67 @@ nav{
     color:#CCCCCC;
 
 }
+
+
+#side-menu{
+    position:absolute;
+    background-color: #191818;
+    top:90px;
+    
+    transition: 1s;
+    
+    overflow-y:scroll;
+    
+   
+}
+
+.hide{
+    right:200vw;
+    
+    transition:1s;
+    
+}
+#account-settings-div{
+     margin:10vh 5vw;
+}
+.account-settings, .nav-list{
+    color:orange;
+    font-size:25px;
+    font-weight:bold;  
+    margin: 5vh 0;
+    letter-spacing:1px;
+}
+
+.nav-list{
+    color:#cccccc;
+    padding:5vh 5vw;
+    border-width:1px 0 0px 0;
+    border-color:rgb(59, 59, 59);
+    border-style:solid;
+    margin:0;
+    
+
+}
+.nav-active{
+    
+    
+    border-width: 1px 0 0px 4px;
+    border-style:solid;
+    border-left-color: orange;
+
+    
+    
+}
+#copyright{
+    margin:30px 0;
+    padding:2%;
+    font-weight:500;
+    
+}
+#copyright a{
+    text-decoration:underline;
+}
+
 .responsive-icon{
     position:absolute;
     left:2%;
